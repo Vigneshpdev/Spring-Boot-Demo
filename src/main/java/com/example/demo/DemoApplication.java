@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan
-// this is the starting of the project also called parent project
+// this is the starting of the project also called parent project and entry point.
 public class DemoApplication {
 
 	public static void main(String[] args) {
