@@ -20,7 +20,7 @@ import com.example.demo.service.BookService;
 @RequestMapping("/api")
 public class BookController {
 	@Autowired
-	private BookService bookService;
+	private BookService<?> bookService;
    //query param
 	@RequestMapping(value = "/book", method = RequestMethod.GET)
 	public List<Book> getBook
